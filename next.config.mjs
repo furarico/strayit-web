@@ -11,14 +11,6 @@ const nextConfig = {
     unoptimized: true,
   },
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
-  // async headers() {
-  //   return [
-  //     {
-  //       source: "/.well-known/apple-app-site-association",
-  //       headers: [{ key: "content-type", value: "application/json" }],
-  //     },
-  //   ];
-  // },
   output: 'export',
 };
 

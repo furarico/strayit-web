@@ -41,16 +41,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  /* :root {
-    --color-furarico-label-primary: var(--furarico-gray4);
-    --color-furarico-label-secondary: var(--furarico-gray3);
-    --color-furarico-label-tertiary: var(--furarico-black);
-    --color-furarico-background-primary: var(--furarico-black);
-    --color-furarico-background-secondary: var(--furarico-blue);
-    --color-furarico-accent-primary: var(--furarico-yellow);
-    --color-furarico-border-primary: var(--furarico-gray3);
-    --color-furarico-alert-primary: var(--furarico-orange);
-  } */
 }
 
 body {
