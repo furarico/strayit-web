@@ -1,0 +1,29 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "4YP7SQBLYV.com.kantacky.STRAY-IT"
+        ],
+        "components": [
+          {
+            "/": "/*",
+            "?": {
+              "skipul": "?*"
+            },
+            "exclude": true
+          },
+          {
+            "/": "/app/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "4YP7SQBLYV.com.kantacky.STRAY-IT"
+    ]
+  }
+}

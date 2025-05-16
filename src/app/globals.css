@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --furarico-black: #00142D;
+  --furarico-blue: #1D275B;
+  --furarico-gray1: #555555;
+  --furarico-gray2: #F4F4F4;
+  --furarico-gray3: #949CC4;
+  --furarico-gray4: #E8EDF9;
+  --furarico-green: #3B97A0;
+  --furarico-orange: #FF8933;
+  --furarico-yellow: #FFCB67;
+  --furarico-white: #FFFFFF;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @theme inline {
+  --color-furarico-label-primary: var(--furarico-black);
+  --color-furarico-label-secondary: var(--furarico-gray1);
+  --color-furarico-label-tertiary: var(--furarico-black);
+  --color-furarico-background-primary: var(--furarico-gray2);
+  --color-furarico-background-secondary: var(--furarico-white);
+  --color-furarico-accent-primary: var(--furarico-yellow);
+  --color-furarico-border-primary: var(--furarico-gray1);
+  --color-furarico-alert-primary: var(--furarico-orange);
+} */
+
+@theme inline {
+  --color-furarico-label-primary: var(--furarico-gray4);
+  --color-furarico-label-secondary: var(--furarico-gray3);
+  --color-furarico-label-tertiary: var(--furarico-black);
+  --color-furarico-background-primary: var(--furarico-black);
+  --color-furarico-background-secondary: var(--furarico-blue);
+  --color-furarico-accent-primary: var(--furarico-yellow);
+  --color-furarico-border-primary: var(--furarico-gray3);
+  --color-furarico-alert-primary: var(--furarico-orange);
+}
+
+@media (prefers-color-scheme: dark) {
+  /* :root {
+    --color-furarico-label-primary: var(--furarico-gray4);
+    --color-furarico-label-secondary: var(--furarico-gray3);
+    --color-furarico-label-tertiary: var(--furarico-black);
+    --color-furarico-background-primary: var(--furarico-black);
+    --color-furarico-background-secondary: var(--furarico-blue);
+    --color-furarico-accent-primary: var(--furarico-yellow);
+    --color-furarico-border-primary: var(--furarico-gray3);
+    --color-furarico-alert-primary: var(--furarico-orange);
+  } */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
