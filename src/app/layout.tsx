@@ -16,9 +16,9 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "ふらりこ - 方向音痴を楽しみながら目的地まで一直線！",
+  title: "STRAY-IT - 方向音痴を楽しみながら目的地まで一直線！",
   description:
-    "ふらりこは、方向音痴を楽しみながら目的地まで向かうことができるアプリです。",
+    "STRAY-ITは、方向音痴を楽しみながら目的地まで向かうことができるアプリです。",
   itunes: {
     appId: "6448612672",
     appArgument: "https://furari.co/app/",
@@ -39,8 +39,8 @@ export default function RootLayout({
           <div className="flex justify-start items-center">
             <Link href="/">
               <div className="flex items-center space-x-2">
-                <Image src={Icon} alt="ふらりこ" width={32} height={32} />
-                <div className="text-2xl font-bold">ふらりこ</div>
+                <Image src={Icon} alt="STRAY-IT" width={32} height={32} />
+                <div className="text-2xl font-bold">STRAY-IT</div>
               </div>
             </Link>
           </div>

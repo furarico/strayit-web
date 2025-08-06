@@ -9,12 +9,12 @@ export default function Page() {
           新感覚のお散歩体験
         </div>
         <div className="text-7xl sm:text-8xl md:text-9xl font-bold text-center">
-          ふらりこ
+          STRAY-IT
         </div>
       </div>
 
       <div>
-        <Image src="/icon.png" alt="ふらりこ" width={256} height={256} />
+        <Image src="/icon.png" alt="STRAY-IT" width={256} height={256} />
       </div>
 
       <div>

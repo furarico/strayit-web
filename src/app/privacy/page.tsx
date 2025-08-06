@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
 
 export const metadata: Metadata = {
-  title: "Privacy - ふらりこ",
+  title: "Privacy - STRAY-IT",
 };
 
 export default async function Page() {
@@ -17,7 +17,7 @@ export default async function Page() {
 
 # 1. はじめに
 
-ふらりこ（以下、「本サービス」といいます。）は、ユーザのプライバシーを尊重し、個人情報の保護に努めています。本プライバシーポリシーは、本サービスが収集する個人情報の種類、その利用方法、およびその保護方法について説明します。
+STRAY-IT（以下、「本サービス」といいます。）は、ユーザのプライバシーを尊重し、個人情報の保護に努めています。本プライバシーポリシーは、本サービスが収集する個人情報の種類、その利用方法、およびその保護方法について説明します。
 
 # 2. 収集する情報
 
@@ -60,8 +60,8 @@ export default async function Page() {
 
 プライバシーポリシーに関するお問い合わせは、以下の連絡先までご連絡ください。
 
-ふらりこ  
-contact@furari.co
+STRAY-IT  
+stray-it@furari.co
 `}
           components={{
             h1: ({ children }) => (

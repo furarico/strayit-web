@@ -2,7 +2,7 @@ import PageTitle from "@/components/page-title";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About - ふらりこ",
+  title: "About - STRAY-IT",
 };
 
 export default function Page() {
